@@ -18,7 +18,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgresql://filterbot:dkkaj0123456@postgresql/postgres'  # needed for any database modules
-    WEBHOOK = False
+    WEBHOOK = True
     URL = None
 
     # OPTIONAL
