@@ -15,6 +15,7 @@ class Config(object):
     API_KEY = "1423025003:AAHTvOTARswwuPoMwv55lXceIQvbZhUzD8A"
     OWNER_ID = "1131653685"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "kavinduaj"
+    OWNER_NAME = "KAvindu AJ"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgresql://filterbot:dkkaj0123456@postgresql/postgres'  # needed for any database modules
