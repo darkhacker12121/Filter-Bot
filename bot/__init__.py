@@ -30,6 +30,8 @@ if ENV:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
     MESSAGE_DUMP = os.environ.get('MESSAGE_DUMP', None)
+    OWNER_NAME = os.environ.get("OWNER_NAME", None)
+    
 
     try:
         SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
