@@ -8,3 +8,4 @@ class Development(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql://filterbot:dkkaj0123456@postgresql/postgres'  # sample db credentials
     USE_MESSAGE_DUMP = True
     SUDO_USERS = [1131653685]  # List of id's for users which have sudo access to the bot.
+    SPAMMERS = ""
