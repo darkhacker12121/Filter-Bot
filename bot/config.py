@@ -9,3 +9,4 @@ class Development(Config):
     USE_MESSAGE_DUMP = True
     SUDO_USERS = [1131653685]  # List of id's for users which have sudo access to the bot.
     SPAMMERS = "123456"
+    SW_API = "DFOm~tAD3jGW_l_pxisfl1FETDTytFaz831fAciaKZg9kCoAYuPAP0lYSO5QDdbC"
