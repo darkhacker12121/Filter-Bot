@@ -13,3 +13,4 @@ class Development(Config):
     SPAMMERS = "123456"
     SW_API = "DFOm~tAD3jGW_l_pxisfl1FETDTytFaz831fAciaKZg9kCoAYuPAP0lYSO5QDdbC"
     START_IMG = "https://telegra.ph/file/fc734b227985a1524e715.jpg"
+
