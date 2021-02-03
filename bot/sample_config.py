@@ -12,12 +12,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1423025003:AAHxRn9YSX2N73S72QadcImmwPH_4JQhyjU"
+    OWNER_ID = "1131653685"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "kavinduaj"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://filterbot:dkkaj0123456@postgresql/postgres'  # needed for any database modules
     WEBHOOK = False
     URL = None
 
